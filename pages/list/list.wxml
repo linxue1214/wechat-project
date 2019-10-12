@@ -1,0 +1,19 @@
+<!--pages/list/list.wxml-->
+
+<view class="bg">
+<image src="/image/indexbg.jpg"></image>
+</view>
+<view class='news' wx:for="{{list}}">
+  <view class='item'>
+      <view class='left'>
+        <image src='{{item.src}}'></image>
+      </view>
+      <view class='right'>
+        <view class="text-title">{{item.title}}</view>
+        <view class="itemdesc">{{item.desc}}</view>
+     
+        <button data-aa='{{index}}' bindtap='detail'>评论</button>  
+      </view>
+      <view class="itemtranslator">{{item.translator}}</view>
+  </view>
+</view>

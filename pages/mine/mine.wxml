@@ -1,0 +1,60 @@
+<view class="bg">
+<image src="/image/indexbg.jpg"></image>
+</view>
+<view class="top">
+<view class="img">
+<image src="/image/lunbo2.jpg"></image>
+</view>
+<view class="time">
+   <view class="readtime">读诗时长：5小时52分钟</view>
+</view>
+</view>
+<view class="main">
+<view class="news">
+  <image src="/image/news.png"></image>
+  <view class="text">我的消息
+    <view class="fuhao">></view>
+  </view>
+</view>
+<view class="news">
+  <image src="/image/booklist.png"></image>
+  <view class="text">我的推荐
+    <view class="fuhao">></view>
+  </view>
+</view>
+<view class="news">
+  <image src="/image/note.png"></image>
+  <view class="text">我的笔记
+    <view class="fuhao">></view>
+  </view>
+</view>
+<view class="news">
+  <image src="/image/fans.png"></image>
+  <view class="text">关注粉丝
+    <view class="fuhao">></view>
+  </view>
+</view>
+<view class="news">
+  <image src="/image/times.png"></image>
+  <view class="text">购买时长
+    <view class="fuhao">></view>
+  </view>
+</view>
+<view class="news">
+  <image src="/image/update.png"></image>
+  <view class="text">更新续订
+    <view class="fuhao">></view>
+  </view>
+</view>
+<view class='news day-weather ' bindtap='logs'>
+  <image src="/image/sets.png"></image>
+  <view class="text">设置
+    <view class="fuhao">></view>
+  </view>
+</view>
+
+
+
+
+
+</view>

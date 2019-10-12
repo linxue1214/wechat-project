@@ -1,0 +1,57 @@
+<!--index.wxml-->
+<view class="bg">
+<image src="/image/indexbg.jpg"></image>
+</view>
+<view class='header'>
+ 
+  <view>
+     <input class="find" placeholder="请输入你要查找的内容"><image class="pic" src="/image/search.jpg"></image></input>
+  </view>
+ 
+</view>
+<view class='main'>
+  <swiper autoplay="{{play}}" interval='{{timeall}}' duration='{{time}}' indicator-dots='{{dots}}' class="slide">
+    <block wx:for="{{imgurl}}">
+      <swiper-item>
+        <image src='{{item}}' class="slide-img"></image>
+      </swiper-item>
+    </block>
+    for(v in url){v;}
+  </swiper>  
+</view>
+<view class='nav'>
+  <view class='day-weather' bindtap='onTapDayWeather'>
+  <image src="/image/book1.jpg"></image>
+  
+  </view>
+  <view class='day-weather' bindtap='original'>
+  <image src="/image/pen.jpg"></image>
+   
+  </view>
+  <view class='day-weather' bindtap='commend'>
+  <image src="/image/book2.jpg"></image>
+  
+  </view>
+  <view class='day-weather' bindtap='publish'>
+  <image src="/image/ruler.jpg"></image>
+  
+  </view>
+
+</view>
+
+<view class='news' wx:for="{{list}}">
+  <view class='item'>
+      <view class='left'>
+        <image src='{{item.src}}'></image>
+      </view>
+      <view class='right'>
+        <view class="text-title">{{item.title}}</view>
+        <view class="itemdesc">{{item.desc}}</view>
+
+        <text>2周前</text>
+      </view>
+  </view>
+</view>
+
+
+   

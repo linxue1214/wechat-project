@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/detail/detail",
+    "pages/list/list",
+    "pages/read/read",
+    "pages/mine/mine",
+    "pages/audio/audio",
+    "pages/publish/publish",
+    "pages/comment/comment",
+    "pages/commend/commend",
+    "pages/original/original"
+ 
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#1CE5A7",
+    "navigationBarTitleText": "每日e读",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#21EA8E",
+    "pageOrientation": "auto"
+  },
+  "tabBar": {
+    "selectedColor": "#2e5e86",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/read/read",
+        "text": "每日一读",
+        "iconPath": "image/book1.jpg",
+        "selectedIconPath": "image/book1.jpg"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "诗词自荐",
+        "iconPath": "image/zan.jpg",
+        "selectedIconPath": "image/zan.jpg"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的后台",
+        "iconPath": "image/bk.jpg",
+        "selectedIconPath": "image/bk.jpg"
+      }
+      
+    ]
+  },
+
+  "sitemapLocation": "sitemap.json"
+}

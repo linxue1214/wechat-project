@@ -1,0 +1,16 @@
+/* pages/list/list.wxss */
+@import "../index/background.wxss";
+.news{overflow: hidden;padding: 30rpx 20rpx;border: 2rpx solid gainsboro;margin-bottom: 15rpx;}
+.left{float:left;margin-right:20rpx;}
+.right{float: right;width: 80%;}
+/* .right .text-title item.title{font-size: 10rpx;} */
+.left image{width: 100rpx;height: 100rpx;border-radius: 10rpx}
+.right view{margin: 20rpx 0rpx}
+.right .itemdesc{white-space: pre-wrap}
+.right view:nth-child(1){font-size: 40rpx;font-weight:900}
+.right button{height: 80rpx;} 
+.text-title{font-size: 35rpx;margin-top: -10rpx;}
+.itemdesc{font-size: 32rpx;}
+.right button{background-color: rgba(178, 199, 202, 0.089);color: black;font-size: 35rpx;}
+.itemtranslator{width: 100%;clear: both;font-size: 28rpx;}
+

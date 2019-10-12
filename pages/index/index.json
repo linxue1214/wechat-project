@@ -1,0 +1,33 @@
+  {
+    "tabBar": {
+    "selectedColor": "#2e5e86",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "每日一读",
+        "iconPath": "image/book1.jpg",
+        "selectedIconPath": "image/book1.jpg"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "诗词自荐",
+        "iconPath": "image/zan.jpg",
+        "selectedIconPath": "image/zan.jpg"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的后台",
+        "iconPath": "image/bk.jpg",
+        "selectedIconPath": "image/bk.jpg"
+      },
+      {
+        "pagePath": "pages/login/login",
+        "text": "注册",
+        "iconPath": "image/book2.jpg",
+        "selectedIconPath": "image/book2.jpg"
+      }
+    ]
+  }
+  
+  }

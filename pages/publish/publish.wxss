@@ -1,0 +1,67 @@
+/* pages/publish/publish.wxss */
+@import "../index/background.wxss";
+.publish{
+  width: 100%;
+  height: 100rpx;
+  background-color: whitesmoke;
+}
+.publish .text{
+  width: 30%;
+  height: 50rpx;
+  margin: auto;
+  padding-top:30rpx; 
+
+}
+.classify{
+  width: 100%;
+  height:100rpx;
+  margin-top:10rpx;
+  background-color: whitesmoke;
+}
+.classify .text{
+  margin-top:20rpx;
+  width: 20%;
+  float: left;
+}
+.classify input{
+ margin-top:10rpx;
+  width: 80%;
+  height: 70rpx;
+  float: right;
+  
+}
+.main{
+  width: 100%;
+  height: 600rpx;
+ margin-top:10rpx;
+   background-color: whitesmoke;
+}
+.main .text{
+  width: 15%;
+  height: 50rpx;
+  float: left;
+ 
+  }
+.main .content{
+  width: 82%;
+  height: 500rpx;
+  float: right;
+  border: 1rpx solid gainsboro;
+    border-radius: 10rpx;
+}
+.fabu{
+  width: 80%;
+  height: 100rpx;
+  border-radius: 20rpx;
+  margin: auto;
+  margin-top:30rpx; 
+
+  background-color: gainsboro;
+  
+}
+.gabu .text{
+  
+  border-radius: 20rpx;
+  border: 1rpx solid black;
+  color:white;
+}

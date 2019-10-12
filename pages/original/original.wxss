@@ -1,0 +1,2 @@
+@import "../index/background.wxss";
+@import "../list/list.wxss";

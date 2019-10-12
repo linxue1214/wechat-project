@@ -1,0 +1,19 @@
+<!--pages/publish/publish.wxml-->
+<view class="bg">
+<image src="/image/indexbg.jpg"></image>
+</view>
+<view class="publish">
+<view class="text">发布我的推荐</view>
+</view>
+<view class="classify">
+<view class="text">标题：</view>
+<input class="title" placeholder="请输入标题"></input>
+</view>
+
+<view class="main">
+<view class="text">内容：</view>
+<input class="content" placeholder="请输入内容"></input>
+</view>
+
+<view class="fabu"><button class="btn">发布</button></view>
+

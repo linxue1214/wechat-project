@@ -1,0 +1,46 @@
+<!--pages/comment/comment.wxml-->
+    <!-- 评论 -->
+    <!--textarea-->
+    <view class="message">
+      <form bindsubmit="formSubmit" class='form'>
+        <input type="text" name="liuyantext" placeholder='留下你精彩的评论吧' value='{{keyValue}}' class="input-style" />
+        <button formType="submit" class="btn">发送</button>
+        <input type="text" name="nickname" value='{{videoid}}' style="display:none;" />
+        <input type="text" name="headimg" value='{{avatarUrl}}' style="display:none;" />
+      </form>
+    </view>
+
+
+        <view class='allMessage'>
+      <view class="title">
+        <text>全部评论</text>
+      </view>
+      <view class='tab-content'>
+        <view class='comment-list'>
+        <!-- 提交评论显示 -->
+          <view class='comment-item' class="{{showOrHidden?'show':'hide'}}" style='width: 100%;height: auto;overflow: hidden;padding: 16px 0;border-bottom: 1px solid #f3f3f5;'>
+            <view class='comment-person'>
+              <image class='comment-person-avatar' src='{{photo2}}'></image>
+              <view class='comment-person-info ellipsis'>
+                <view class='comment-person-name ellipsis'>{{nickname2}}</view>
+                <view class='comment-time ellipsis'>{{date2}}</view>
+              </view>
+            </view>
+            <view class='comment-text'>{{comment2}}</view>
+          </view>
+ 
+       
+          <!-- 读取数据显示全部评论 -->
+          <view class='comment-item' wx:for="{{comment}}" wx:key="{{item.id}}">
+            <view class='comment-person'>
+              <image class='comment-person-avatar' src='{{item.photo}}'></image>
+              <view class='comment-person-info ellipsis'>
+                <view class='comment-person-name ellipsis'>{{item.nickname}}</view>
+                <view class='comment-time ellipsis'>{{item.created_at}}</view>
+              </view>
+            </view>
+            <view class='comment-text'>{{item.content}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
